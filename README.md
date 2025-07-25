@@ -20,4 +20,13 @@ A desktop app built with Python and PyQt6 that allows users to filter and export
 
 ## 🚀 Installation
 
+### requirement
+- Python 3.9 or higher
+- Required packages in the file requirements.txt
+
+### Installing packages
+
+Run the below command in terminal or CMD to install the packages
+pip install -r requirements.txt
+
 Run the search.py code or use pyinstaller to create the exe file
