@@ -20,4 +20,4 @@ A desktop app built with Python and PyQt6 that allows users to filter and export
 
 ## 🚀 Installation
 
-Run the code or use pyinstaller to create the exe file
+Run the search.py code or use pyinstaller to create the exe file
