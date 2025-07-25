@@ -1,0 +1,1603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(28, 28, 29);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>0</y>
+      <width>87</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="close_minilayour_2">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QToolButton" name="toolButton_4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>:/icons/minus1.png</normalon>
+        </iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButton_5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>:/icons/close1.png</normalon>
+        </iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>49</y>
+      <width>681</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:30px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="create_account_label">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>10</y>
+       <width>361</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>800</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 850 29pt &quot;Vazirmatn&quot;;
+color: #0B1C33;</string>
+     </property>
+     <property name="text">
+      <string>ساخت فایل اکسل</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QFrame" name="radioframe">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>100</y>
+       <width>601</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QCheckBox" name="filimo">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>20</y>
+        <width>75</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>فیلیمو</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="filmnet">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>20</y>
+        <width>75</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>فیلم نت</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="gapfilm">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>20</y>
+        <width>75</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>گپ فیلم</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="namava">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>20</y>
+        <width>75</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>نماوا</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="opera">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>75</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>آپرا</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="platform">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>70</y>
+       <width>361</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Vazirmatn</family>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string> از پلتفرم های زیر انتخاب کنید</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="filter">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>170</y>
+       <width>361</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Vazirmatn</family>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>از فیلتر های زیر انتخاب کنید</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QFrame" name="filterframe">
+     <property name="geometry">
+      <rect>
+       <x>39</x>
+       <y>210</y>
+       <width>601</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QComboBox" name="country">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>121</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : #F3F3F3;
+
+
+</string>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>همه کشورها</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>10</number>
+      </property>
+      <property name="insertPolicy">
+       <enum>QComboBox::InsertAtBottom</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string>همه کشورها</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>فقط ایرانی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>فقط خارجی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>----------</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ایران</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>فرانسه</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>آمریکا</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>کره جنوبی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>استرالیا</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>انگلیس</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>کانادا</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ترکیه</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>هنگ کنگ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>چین</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ژاپن</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>اسپانیا</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>آلمان</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>فنلاند</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>نروژ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>هند</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>سوییس</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>مکزیک</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>چک</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>آرژانتین</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>تایلند</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>تایوان</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>دانمارک</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>سوئد</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>نیوزلند</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>مالزی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>بلغارستان</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ایتالیا</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ایرلند</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>روسیه</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>هلند</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ویتنام</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>آفریقای جنوبی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>مصر</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>برزیل</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>امارات متحده عربی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>مجارستان</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>کلمبیا</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>لهستان</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>شیلی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>اوکراین</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>رومانی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>فیلیپین</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>بلژیک</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>نپال</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>پرتغال</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>سنگاپور</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ایسلند</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>لتونی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>پاکستان</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>لوکزامبورگ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>استونی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>یونان</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>اتریش</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>پرو</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>بلاروس</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>لوکزامبورگ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>آفریقای شمالی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>کرواسی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>لیتوانی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>اسلواکی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>کویت</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>اروگوئه</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>لبنان</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>اردن</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>مقدونیه</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>عربستان</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>چکسلواکی</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>10</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>کشور</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="age">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>30</y>
+        <width>121</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : #F3F3F3;
+
+
+</string>
+      </property>
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <property name="currentText">
+       <string>ترکیبی</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>10</number>
+      </property>
+      <property name="insertPolicy">
+       <enum>QComboBox::InsertAtBottom</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string>ترکیبی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>عموم سنین</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>بالای 7 سال</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>بالای 12 سال</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>بالای 15 سال</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>بالای 18 سال</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>10</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>سن</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>10</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>سال تولید</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="zhaner">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>30</y>
+        <width>121</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : #F3F3F3;
+
+
+</string>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>انواع ژانر</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>10</number>
+      </property>
+      <property name="insertPolicy">
+       <enum>QComboBox::InsertAtBottom</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string>انواع ژانر</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>اکشن</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>انیمیشن</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>هیجان انگیز</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>کمدی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>جنگی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>درام</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>رازآلود</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>وسترن</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>کوتاه</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>مستند</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ماجراجویی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>جنایی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>علمی تخیلی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ریلیتی شو</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>خانوادگی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>تئاتر</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>بیوگرافی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>موزیکال</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>عاشقانه</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>تاریخی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>فانتزی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ترسناک</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>تاک شو</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>مذهبی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ورزشی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>اخبار</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>موسیقی</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>گیم شو</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>کنسرت</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>10</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>ژانر</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>30</y>
+        <width>181</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : #F3F3F3;
+border:0;
+border-radius:0;
+
+
+
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QSpinBox" name="spinBox_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>121</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Vazirmatn</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="minimum">
+        <number>1900</number>
+       </property>
+       <property name="maximum">
+        <number>2030</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>100</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Vazirmatn</family>
+         <pointsize>10</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>تا تاریخ میلادی</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>100</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Vazirmatn</family>
+         <pointsize>10</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>از تاریخ میلادی</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_2">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>120</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Vazirmatn</family>
+         <pointsize>11</pointsize>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="suffix">
+        <string/>
+       </property>
+       <property name="prefix">
+        <string/>
+       </property>
+       <property name="minimum">
+        <number>1900</number>
+       </property>
+       <property name="maximum">
+        <number>2030</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>40</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Vazirmatn</family>
+         <pointsize>10</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>از تاریخ شمسی</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>40</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Vazirmatn</family>
+         <pointsize>10</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>تا تاریخ شمسی</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>61</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Vazirmatn</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="minimum">
+        <number>1300</number>
+       </property>
+       <property name="maximum">
+        <number>1410</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>61</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Vazirmatn</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="minimum">
+        <number>1300</number>
+       </property>
+       <property name="maximum">
+        <number>1410</number>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>10</y>
+         <width>75</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Vazirmatn</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>شمسی</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>75</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Vazirmatn</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>میلادی</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QCheckBox" name="film">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>110</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>11</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>فیلم</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="series">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>110</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>11</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>سریال</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>80</y>
+        <width>49</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>نوع</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>80</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>مقدار نمایشی</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_5">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>110</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Vazirmatn</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : #F3F3F3;
+
+
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>1000000000</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="createfile">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>440</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Vazirmatn</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#createfile{
+	background-color: rgb(28, 28, 29);
+	color: rgb(255, 255, 255);
+	border:1px solid white;
+	border-radius:25px
+}
+QPushButton#createfile:hover{
+	background-color: rgb(255, 255, 255);
+	color: rgb(11, 28, 51);
+	border:1px solid rgb(11, 28, 51);
+}</string>
+     </property>
+     <property name="text">
+      <string>ساخت فایل</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="image/icon/icons.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>toolButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>774</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>731</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
